@@ -1,0 +1,14 @@
+name = "english-search-worker"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+
+[build]
+command = ""
+
+# D1 数据库配置
+[[d1_databases]]
+binding = "ENGLISH_DB"
+database_id = "${DATABASE_ID}"
+
+

@@ -9,6 +9,5 @@ command = ""
 # D1 数据库配置
 [[d1_databases]]
 binding = "ENGLISH_DB"
-database_id = "${DATABASE_ID}"
 
 
